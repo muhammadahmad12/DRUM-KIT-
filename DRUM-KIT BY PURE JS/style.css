@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	color: white;
+}
+
+body {
+	background-image: url("as.gif");
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cover {
+	height: 500px;
+	width: 90%;
+	/* border: 1px  white; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+img {
+	height: 220px;
+	width: 14%;
+}
+p {
+	position: relative;
+	left: -100px;
+	font-size: 50px;
+	color: black;
+	text-transform: capitalize;
+}
